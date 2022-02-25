@@ -1,0 +1,13 @@
+.header {
+  height: 400px;
+  background-image: linear-gradient(
+      to top right,
+      rgba(0, 0, 255, 0.153),
+      rgba(255, 255, 255, 0.523)
+    ),
+    url(https://images.unsplash.com/photo-1617370447481-f4691f05d6f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}

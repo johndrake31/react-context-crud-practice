@@ -1,5 +1,6 @@
 import React, { useContext, useRef } from 'react';
 import CounterContext from '../Context/counter-context';
+import classes from './AddItemForm.module.css'
 
 const AddItemForm = () => {
   //{ amount: name: price:  discription: }
@@ -27,7 +28,9 @@ const AddItemForm = () => {
   };
 
   return (
-    <form className='container' onSubmit={onSubmitHandler}>
+
+    <form className={ classes.formBg +' container rounded p-4 mb-5'}  onSubmit={onSubmitHandler}>
+      <h2>Add Item Form</h2>
       <div className='input-group input-group-sm mb-3'>
         <span className='input-group-text' id='inputGroup-sizing-sm'>
           Name
