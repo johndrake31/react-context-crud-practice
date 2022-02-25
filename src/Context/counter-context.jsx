@@ -6,7 +6,8 @@ const CounterContext = React.createContext(
         name: 't-shirt',
         price: 4.99,
         discription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, hic.",
-        onAddItem: (item)=>{}
+        onAddItem: (item)=>{},
+        onRemoveItem: (id)=>{}
     }
 )
 export default CounterContext
